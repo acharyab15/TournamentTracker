@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
-    "",
     "\\TrackerLibrary",
     "\\TrackerUI"
   ],
-  "SelectedNode": "\\TrackerLibrary\\PersonModel.cs",
+  "SelectedNode": "\\TrackerUI\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

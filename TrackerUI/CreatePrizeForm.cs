@@ -37,6 +37,14 @@ namespace TrackerUI
                 {
                     db.CreatePrize(model);
                 }
+                placeNameValue.Text = "";
+                placeNumberValue.Text = "";
+                prizeAmountValue.Text = "0";
+                prizePercentageValue.Text = "0";
+            }
+            else
+            {
+                MessageBox.Show("This form has invalid information. Please check it and try again.");
             }
 
         }
@@ -76,6 +84,11 @@ namespace TrackerUI
                 output = false;
             }
             return output;
+        }
+
+        private void prizeAmountValue_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
